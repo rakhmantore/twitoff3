@@ -1,0 +1,4 @@
+{
+    "python.pythonPath": "/Users/iskanderrakhman/.local/share/virtualenvs/3-3-twitoff-ne3l7tn3/bin/python",
+    "python.linting.pylintArgs": ["--load-plugins","pylint-flask"]
+}
