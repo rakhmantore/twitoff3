@@ -25,7 +25,7 @@ def create_app():
                 message = "User {} successfully added!".format(name)
             tweets = User.query.filter(User.username == name).one().tweet
         except Exception as e:
-            print('Error processing {}: {}'.format(username, e))
+            print('Error adding {name}: {e}')
             tweets = []
         return render_template('user.html', title=name, tweets=tweets, message=message)
 
